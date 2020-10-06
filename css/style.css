@@ -1,0 +1,126 @@
+
+
+body {
+    background-color: rgb(239,239,239);
+    color: rgb(69, 69, 69);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-image: url(../../img/gochujang.jpg);
+    padding-bottom: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: rgb(254, 255, 251);
+}
+
+.container1 {
+    max-width: 750px;
+    margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-areas: "sidebar navigation navigation" 
+                           "sidebar content content";
+    margin-bottom: 10px;
+}
+
+.container2 {
+    max-width: 730px;
+    margin: auto;
+    background-color: rgb(254, 255, 251);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.container3 {
+    max-width: 730px;
+    margin: auto;
+    background-color: rgb(254, 255, 251);
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0px;
+    height: 300px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.greytext {
+    color: rgb(73, 73, 73);
+}
+
+.redtext {
+    color: rgb(244, 119, 114);
+}
+
+.nav {
+    background-color:  rgb(239,239,239);
+    color: rgb(73, 73, 73);
+    grid-area: navigation;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+.sidebar {
+    background-color: rgba(244, 119, 114);
+    grid-area: sidebar;
+    padding-right: 25px;
+    font-size: 20px;
+    font-weight: 150;
+}
+.story {
+	background-color: rgb(239, 239, 239);
+    grid-area: content;
+    color: rgb(73, 73, 73);
+    padding: 10px;
+}
+div.tag {
+    background: rgba(244, 119, 114);
+    border: none;
+    color:  rgb(254, 255, 251);
+    padding: 12px 16px;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: "Lucida Console";
+    font-size: 65px;
+    color: rgb(244, 119, 114);
+    padding-left: 25px;
+}
+
+h2 {
+    color: rgb(244, 119, 114);
+    line-height: 50%;
+    font-size: 30px;
+}
+
+li a {
+    background: none;
+    display: block;
+    color:  rgb(254, 255, 251);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+ul {
+    font-size: 14px;
+    padding-right: 10px;
+    list-style-type: circle;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
